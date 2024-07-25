@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--Estilo customizado-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!--[if lt IE 9]>
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="img/museu.png" alt="">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Conheça o museu</h3>
+                        <iframe width="310" height="170"
+                            src="https://www.youtube.com/embed/RGUYb-hivrc?si=loJeZ7OxrbRPtLQR"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                                picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen></iframe>
+                    </article>
+
+                    <article id="maps">
+                        <h3>Encontre o museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.46990089
+                                85795!2d-46.482327124671194!3d-23.515595778831273!2m3!1f0!2f0!3f0!3m2!1i1024!2i76
+                                8!4f13.1!3m3!1m2!1s0x94ce60df079ce3ef%3A0xf1a66422fc40a7eb!2sAv.%20Jo%C3%A3o%20Ba
+                                tista%20de%20Toledo%2C%2060%20-%20Jardim%20Soraia%2C%20S%C3%A3o%20Paulo%20-%20SP%2
+                                C%2003895-000!5e0!3m2!1spt-BR!2sbr!4v1718660375868!5m2!1spt-BR!2sbr" width="310"
+                            height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-whe n-downgrade"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="">Os assustadores insetos</a>
+                            </li>
+
+                            <li>
+                                <a href="">O crânio de Luzia , a mulher mais antiga do Brasil</a>
+                            </li>
+
+                            <li>
+                                <a href="">Preguiça gigante e tigres-dentes-de-sabre</a>
+                            </li>
+
+                            <li>
+                                <a href="">Plantas do Brasil Central</a>
+                            </li>
+
+                            <li>
+                                <a href="">Teresa Cristina: A Imperatriz Arqueóloga</a>
+                            </li>
+
+                            <li>
+                                <a href=""><strong>Veja todos! (65)</strong></a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 Anos de História</h3>
+                        <p>
+                            O Museu Histórico Nacional é um museu dedicado à história do Brasil,
+                            localizado na praça Marechal Âncora, no centro histórico da cidade do
+                            Rio de Janeiro, no Brasil. O Museu Histórico Nacional é um museu dedicado
+                            à história do Brasil, localizado na praça Marechal Âncora, no centro histórico
+                            da cidade do Rio de Janeiro, no Brasil.
+                        </p>
+
+                        <a href="">LEIA MAIS</a>
+                    </article>
+                </section>
+            </div>
+
+            <Aside>
+                <section id="depoimento">
+                    <img src="img/depoimento.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+
+                <section id="galeria">
+                    <h1>Galeria de fotos</h1>
+                    <a href="">
+                        <img src="img/imagem1.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem2.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem3.jpg" height="93" width="93">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem4.jpg" height="93" width="93">
+                    </a>
+                </section>
+            </Aside>
+            
+            <footer>
+                conteudo
+            </footer>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
